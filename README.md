@@ -232,14 +232,18 @@ nohup python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 &
 
 这个软件完全免费，没有广告，没有付费功能。
 
-如果它帮你记住了几个单词、节省了一点时间，或者只是让你觉得"嗯，挺好用的"——  
+如果它帮你记住了几个单词、节省了一点时间，或者只是让你觉得「嗯，挺好用的」——  
 那就请作者喝杯咖啡吧 ☕，哪怕 1 块钱，也是对我继续做下去最大的鼓励。
 
 <div align="center">
 
-<img src="docs/wechat-pay.jpg" width="220" alt="微信收款码" />
+[![爱发电](https://img.shields.io/badge/爱发电-支持作者-946ce6?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA)](https://ifdian.net/u/35cbef06526911f1afb05254001e7c00)
 
-**微信扫码 · 随心打赏**
+&nbsp;
+
+<img src="docs/wechat-pay.jpg" width="200" alt="微信收款码" />
+
+**👆 点击爱发电按钮 · 或微信扫码打赏**
 
 *你的每一份支持，都会变成这个软件下一个新功能 🚀*
 

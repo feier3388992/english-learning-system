@@ -228,5 +228,19 @@ nohup python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 &
 
 ---
 
+## ☕ 请作者喝杯咖啡
+
+如果这个项目帮助了你，欢迎请作者喝杯咖啡 ☕，你的支持是持续更新的最大动力！
+
+<div align="center">
+
+<img src="docs/wechat-pay.jpg" width="220" alt="微信收款码" />
+
+**微信扫码打赏 · 感谢支持 🙏**
+
+</div>
+
+---
+
 ## 🌟 如果这个项目对你有帮助，请给个 Star ⭐
 

@@ -1,0 +1,288 @@
+[
+  {
+    "category": "日常问候",
+    "phrases": [
+      {"en": "Good morning!", "zh": "早上好！"},
+      {"en": "Good afternoon!", "zh": "下午好！"},
+      {"en": "Good evening!", "zh": "晚上好！"},
+      {"en": "How are you?", "zh": "你好吗？"},
+      {"en": "Nice to meet you!", "zh": "很高兴见到你！"},
+      {"en": "Long time no see!", "zh": "好久不见！"},
+      {"en": "How have you been?", "zh": "你最近怎么样？"},
+      {"en": "What have you been up to?", "zh": "你最近在忙什么？"},
+      {"en": "Hope you have a great day!", "zh": "希望你今天过得愉快！"},
+      {"en": "See you later!", "zh": "再见！"},
+      {"en": "Take care!", "zh": "保重！"},
+      {"en": "Good night!", "zh": "晚安！"},
+      {"en": "Sleep well!", "zh": "睡个好觉！"}
+    ]
+  },
+  {
+    "category": "家里常用",
+    "phrases": [
+      {"en": "I'm home!", "zh": "我回来了！"},
+      {"en": "I'm leaving now!", "zh": "我出门了！"},
+      {"en": "Don't forget your keys!", "zh": "别忘了带钥匙！"},
+      {"en": "Dinner is ready!", "zh": "晚餐好了！"},
+      {"en": "Can you help me with this?", "zh": "你能帮我一下吗？"},
+      {"en": "Could you pass me the remote?", "zh": "能把遥控器递给我吗？"},
+      {"en": "What time is it now?", "zh": "现在几点了？"},
+      {"en": "I'm tired. I'm going to bed.", "zh": "我累了，去睡觉了。"},
+      {"en": "Don't forget to take out the trash.", "zh": "别忘了倒垃圾。"},
+      {"en": "I need to do the laundry.", "zh": "我需要洗衣服。"},
+      {"en": "Where is my phone?", "zh": "我的手机在哪？"},
+      {"en": "The Wi-Fi is not working.", "zh": "无线网络坏了。"},
+      {"en": "Can you open the window?", "zh": "你能开下窗户吗？"},
+      {"en": "It's too loud.", "zh": "太吵了。"},
+      {"en": "I'm going to take a shower.", "zh": "我去洗个澡。"}
+    ]
+  },
+  {
+    "category": "日常问候",
+    "phrases": [
+      {"en": "Hey, how's it going?", "zh": "嘿，最近怎么样？"},
+      {"en": "What's up?", "zh": "最近好吗？"},
+      {"en": "How's everything?", "zh": "一切都好吗？"},
+      {"en": "Nice to see you again!", "zh": "很高兴再次见到你！"},
+      {"en": "How was your weekend?", "zh": "你周末过得怎么样？"},
+      {"en": "You look great!", "zh": "你看起来很棒！"},
+      {"en": "How's your family?", "zh": "你家人好吗？"},
+      {"en": "Good to hear from you!", "zh": "很高兴收到你的消息！"},
+      {"en": "How's the weather today?", "zh": "今天天气怎么样？"},
+      {"en": "Have a nice day!", "zh": "祝你今天愉快！"},
+      {"en": "How was your day?", "zh": "你今天怎么样？"},
+      {"en": "What are your plans for today?", "zh": "你今天有什么计划？"}
+    ]
+  },
+  {
+    "category": "机场登机",
+    "phrases": [
+      {"en": "Where is boarding gate one?", "zh": "请问1号登机口在哪？"},
+      {"en": "Where can I get the boarding pass?", "zh": "在哪换登机牌？"},
+      {"en": "Where can I get my baggage?", "zh": "我在何处可取得行李？"},
+      {"en": "Is there a bus to the city?", "zh": "有机场巴士到市区吗？"},
+      {"en": "How much is the ticket to downtown?", "zh": "到市区多少钱？"},
+      {"en": "Where is the check-in counter?", "zh": "值机柜台在哪？"},
+      {"en": "Can I have a window seat?", "zh": "我可以要靠窗的座位吗？"},
+      {"en": "Is this flight on time?", "zh": "航班准时吗？"},
+      {"en": "Where is the security check?", "zh": "安检在哪？"},
+      {"en": "I would like to check in.", "zh": "我要办理登机。"},
+      {"en": "My flight is delayed.", "zh": "我的航班延误了。"},
+      {"en": "Where is the passport control?", "zh": "护照检查在哪？"},
+      {"en": "I have nothing to declare.", "zh": "我没有东西要申报。"},
+      {"en": "Here is my visa.", "zh": "这是我的签证。"},
+      {"en": "How long is the transfer time?", "zh": "转机时间要多久？"}
+    ]
+  },
+  {
+    "category": "餐馆吃饭",
+    "phrases": [
+      {"en": "A table for two, please.", "zh": "两人桌。"},
+      {"en": "Can I see the menu, please?", "zh": "请给我菜单。"},
+      {"en": "What do you recommend?", "zh": "你有什么推荐？"},
+      {"en": "I'd like to order...", "zh": "我想点..."},
+      {"en": "Could I have some water?", "zh": "请给我一些水。"},
+      {"en": "The bill, please!", "zh": "买单！"},
+      {"en": "Is this spicy?", "zh": "这个辣吗？"},
+      {"en": "I have a food allergy.", "zh": "我对食物过敏。"},
+      {"en": "Can I pay by card?", "zh": "可以刷卡吗？"},
+      {"en": "This is delicious!", "zh": "很好吃！"},
+      {"en": "I'm vegetarian.", "zh": "我是素食者。"},
+      {"en": "No sugar, please.", "zh": "请不要放糖。"},
+      {"en": "Can I have the receipt?", "zh": "可以给我收据吗？"},
+      {"en": "Is service included?", "zh": "服务费包含了吗？"},
+      {"en": "We'd like to separate bills.", "zh": "我们要分开付账。"}
+    ]
+  },
+  {
+    "category": "旅店住宿",
+    "phrases": [
+      {"en": "I have a reservation.", "zh": "我有预订。"},
+      {"en": "I'd like to check in.", "zh": "我要办理入住。"},
+      {"en": "What time is check-out?", "zh": "退房时间是几点？"},
+      {"en": "Can I have a single room?", "zh": "单人间多少钱？"},
+      {"en": "Is breakfast included?", "zh": "包含早餐吗？"},
+      {"en": "Could I have an extra towel?", "zh": "能再给我一条毛巾吗？"},
+      {"en": "Is there Wi-Fi?", "zh": "有无线网络吗？"},
+      {"en": "Could you call a taxi for me?", "zh": "能帮我叫出租车吗？"},
+      {"en": "Where is the elevator?", "zh": "电梯在哪？"},
+      {"en": "I'd like to extend my stay.", "zh": "我想延长住宿。"},
+      {"en": "The air conditioning is not working.", "zh": "空调坏了。"},
+      {"en": "I need a room key.", "zh": "我需要房卡。"},
+      {"en": "What time is breakfast served?", "zh": "早餐几点供应？"},
+      {"en": "Can I have a late check-out?", "zh": "可以晚点退房吗？"},
+      {"en": "I'd like to speak to the manager.", "zh": "我想见经理。"}
+    ]
+  },
+  {
+    "category": "买东西",
+    "phrases": [
+      {"en": "How much is this?", "zh": "这个多少钱？"},
+      {"en": "Can I try this on?", "zh": "我可以试穿吗？"},
+      {"en": "Do you have this in a different size?", "zh": "有其他尺码吗？"},
+      {"en": "Is there a discount?", "zh": "有折扣吗？"},
+      {"en": "Can I pay by credit card?", "zh": "可以用信用卡吗？"},
+      {"en": "That's too expensive.", "zh": "太贵了。"},
+      {"en": "I'll take this one.", "zh": "我要这个。"},
+      {"en": "Where is the fitting room?", "zh": "试衣间在哪？"},
+      {"en": "Do you have this in black?", "zh": "有黑色的吗？"},
+      {"en": "Can you gift-wrap it?", "zh": "能帮我包装吗？"},
+      {"en": "Can you give me a better price?", "zh": "能便宜点吗？"},
+      {"en": "Is this on sale?", "zh": "这个在打折吗？"},
+      {"en": "Do you have a smaller bag?", "zh": "有小一点的袋子吗？"},
+      {"en": "I'll come back tomorrow.", "zh": "我明天再来。"},
+      {"en": "Where is the cashier?", "zh": "收银台在哪？"}
+    ]
+  },
+  {
+    "category": "参加聚会",
+    "phrases": [
+      {"en": "Thanks for inviting me!", "zh": "谢谢邀请我！"},
+      {"en": "Happy birthday!", "zh": "生日快乐！"},
+      {"en": "Happy new year!", "zh": "新年快乐！"},
+      {"en": "Merry Christmas!", "zh": "圣诞节快乐！"},
+      {"en": "Here's a gift for you.", "zh": "这是给你的礼物。"},
+      {"en": "Cheers!", "zh": "干杯！"},
+      {"en": "Would you like to dance?", "zh": "你想跳舞吗？"},
+      {"en": "The music is great!", "zh": "音乐真棒！"},
+      {"en": "Nice party!", "zh": "很棒的派对！"},
+      {"en": "Thanks for having me!", "zh": "谢谢你的招待！"},
+      {"en": "It's a great honor to be here.", "zh": "很荣幸能来这里。"},
+      {"en": "May I take a photo?", "zh": "我可以拍照吗？"},
+      {"en": "The food looks amazing!", "zh": "食物看起来太棒了！"},
+      {"en": "Would you like something to drink?", "zh": "你想喝点什么吗？"},
+      {"en": "I had a great time!", "zh": "我玩得很开心！"}
+    ]
+  },
+  {
+    "category": "认识打招呼",
+    "phrases": [
+      {"en": "May I introduce myself?", "zh": "请允许我自我介绍。"},
+      {"en": "What's your name?", "zh": "你叫什么？"},
+      {"en": "Where are you from?", "zh": "你来自哪里？"},
+      {"en": "Nice to meet you!", "zh": "很高兴认识你！"},
+      {"en": "What do you do?", "zh": "你做什么工作？"},
+      {"en": "Are you here alone?", "zh": "你一个人来的吗？"},
+      {"en": "Do you know anyone here?", "zh": "你认识这里的人吗？"},
+      {"en": "This is my friend...", "zh": "这是我的朋友..."},
+      {"en": "Could I get your contact?", "zh": "能给我你的联系方式吗？"},
+      {"en": "Let's keep in touch!", "zh": "保持联系！"},
+      {"en": "I work as a...", "zh": "我从事...工作。"},
+      {"en": "How long have you been here?", "zh": "你来这里多久了？"},
+      {"en": "Are you here for vacation?", "zh": "你是来度假的吗？"},
+      {"en": "It's a small world!", "zh": "世界真小！"},
+      {"en": "I've heard a lot about you.", "zh": "久仰大名。"}
+    ]
+  },
+  {
+    "category": "问路",
+    "phrases": [
+      {"en": "Excuse me, how do I get to...?", "zh": "打扰一下，怎么去...？"},
+      {"en": "Where is the nearest subway station?", "zh": "最近的地铁站在哪？"},
+      {"en": "Is it far from here?", "zh": "离这里远吗？"},
+      {"en": "Go straight and turn left.", "zh": "直走然后左转。"},
+      {"en": "It's just around the corner.", "zh": "就在拐角处。"},
+      {"en": "You can't miss it!", "zh": "你不会错过的！"},
+      {"en": "Can I walk there?", "zh": "可以走过去吗？"},
+      {"en": "How long does it take?", "zh": "要多久？"},
+      {"en": "Which bus should I take?", "zh": "我应该坐哪路公交？"},
+      {"en": "Is there a shortcut?", "zh": "有近路吗？"},
+      {"en": "Turn right at the traffic light.", "zh": "红绿灯右转。"},
+      {"en": "It's on the left side.", "zh": "在左边。"},
+      {"en": "I'm lost.", "zh": "我迷路了。"},
+      {"en": "Can you show me on the map?", "zh": "你能在地图上指给我看吗？"},
+      {"en": "Is this the right direction?", "zh": "这是正确的方向吗？"}
+    ]
+  },
+  {
+    "category": "交通出行",
+    "phrases": [
+      {"en": "Where can I take a taxi?", "zh": "出租车站在哪？"},
+      {"en": "How much to the airport?", "zh": "去机场多少钱？"},
+      {"en": "Please take me to this address.", "zh": "请带我去这个地址。"},
+      {"en": "Can you speak more slowly?", "zh": "请你说慢一点。"},
+      {"en": "Please stop here.", "zh": "请在这里停。"},
+      {"en": "Keep the change.", "zh": "不用找零了。"},
+      {"en": "When does the bus leave?", "zh": "公交车几点出发？"},
+      {"en": "Where do I buy the ticket?", "zh": "在哪买票？"},
+      {"en": "Is this the right way?", "zh": "这是正确的方向吗？"},
+      {"en": "I missed my train.", "zh": "我错过了火车。"},
+      {"en": "Where is the bus stop?", "zh": "巴士站牌在哪里？"},
+      {"en": "Does this train go to...?", "zh": "这趟火车去...吗？"},
+      {"en": "I'd like a one-way ticket.", "zh": "我要一张单程票。"},
+      {"en": "I'd like a round-trip ticket.", "zh": "我要一张往返票。"},
+      {"en": "Is there a seat available?", "zh": "有座位吗？"}
+    ]
+  },
+  {
+    "category": "银行货币",
+    "phrases": [
+      {"en": "Where can I change money?", "zh": "哪里可以换钱？"},
+      {"en": "What's the exchange rate?", "zh": "汇率是多少？"},
+      {"en": "I want to withdraw money.", "zh": "我要取钱。"},
+      {"en": "Where is the ATM?", "zh": "ATM在哪？"},
+      {"en": "I'd like to open an account.", "zh": "我想开户。"},
+      {"en": "Can I use my credit card here?", "zh": "这里能用信用卡吗？"},
+      {"en": "I've lost my card.", "zh": "我的卡丢了。"},
+      {"en": "I'd like to report a problem.", "zh": "我要报告一个问题。"},
+      {"en": "Can I transfer money here?", "zh": "这里能转账吗？"},
+      {"en": "I need to update my information.", "zh": "我需要更新信息。"}
+    ]
+  },
+  {
+    "category": "医院药店",
+    "phrases": [
+      {"en": "I don't feel well.", "zh": "我感觉不舒服。"},
+      {"en": "I need to see a doctor.", "zh": "我需要看医生。"},
+      {"en": "Where is the hospital?", "zh": "医院在哪？"},
+      {"en": "Is there a pharmacy nearby?", "zh": "附近有药店吗？"},
+      {"en": "I have a headache.", "zh": "我头疼。"},
+      {"en": "I'm allergic to...", "zh": "我对...过敏。"},
+      {"en": "Can you prescribe some medicine?", "zh": "你能开些药吗？"},
+      {"en": "Where is the emergency room?", "zh": "急诊室在哪？"},
+      {"en": "I have a fever.", "zh": "我发烧了。"},
+      {"en": "My stomach hurts.", "zh": "我肚子疼。"},
+      {"en": "I need a sick note.", "zh": "我需要病假条。"},
+      {"en": "When should I take the medicine?", "zh": "我什么时候吃药？"}
+    ]
+  },
+  {
+    "category": "工作职场",
+    "phrases": [
+      {"en": "I'm running late.", "zh": "我要迟到了。"},
+      {"en": "Can you send me the file?", "zh": "能把文件发给我吗？"},
+      {"en": "Let's have a meeting.", "zh": "我们开会吧。"},
+      {"en": "I need some help.", "zh": "我需要帮助。"},
+      {"en": "When is the deadline?", "zh": "截止日期是什么时候？"},
+      {"en": "I'm working from home today.", "zh": "我今天在家办公。"},
+      {"en": "Could you review this?", "zh": "你能看一下这个吗？"},
+      {"en": "I'm on break.", "zh": "我在休息。"},
+      {"en": "See you at the meeting!", "zh": "会议上见！"},
+      {"en": "Have a good weekend!", "zh": "周末愉快！"},
+      {"en": "I'm busy right now.", "zh": "我现在很忙。"},
+      {"en": "Can we reschedule?", "zh": "可以重新安排吗？"},
+      {"en": "I'll send you the email.", "zh": "我会发邮件给你。"},
+      {"en": "What's your email address?", "zh": "你的邮箱是什么？"},
+      {"en": "Let's get down to business.", "zh": "我们开始谈正事吧。"}
+    ]
+  },
+  {
+    "category": "电话沟通",
+    "phrases": [
+      {"en": "Hello, this is... speaking.", "zh": "你好，我是..."},
+      {"en": "Can I speak to...?", "zh": "我能找...听电话吗？"},
+      {"en": "Please hold on.", "zh": "请稍等。"},
+      {"en": "I'll call you back.", "zh": "我会回电话给你。"},
+      {"en": "Who is this?", "zh": "你是谁？"},
+      {"en": "Sorry, wrong number.", "zh": "抱歉，打错了。"},
+      {"en": "Can I leave a message?", "zh": "我能留言吗？"},
+      {"en": "What's your number?", "zh": "你的号码是多少？"},
+      {"en": "The line is bad.", "zh": "信号不好。"},
+      {"en": "Don't hang up!", "zh": "别挂断！"},
+      {"en": "I'll try again later.", "zh": "我稍后再打。"},
+      {"en": "Is... available?", "zh": "...在吗？"},
+      {"en": "Thank you for calling.", "zh": "谢谢来电。"},
+      {"en": "Please call me back.", "zh": "请给我回电话。"}
+    ]
+  }
+]

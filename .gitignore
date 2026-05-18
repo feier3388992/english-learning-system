@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+*.typed
+
+# SQLite WAL journal files（数据库临时文件，不上传）
+data/*.db-shm
+data/*.db-wal
+
+# 日志文件
+log/
+*.log
+
+# Python 便携版的非必要文件（可选）
+pyforwindow/python312.zip
+pyforwindow/python.cat
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE 配置（可选保留，方便贡献者）
+.idea/
+.vscode/
+*.iml
+
+# Node modules（如果有）
+node_modules/
+
+# 构建产物
+dist/
+build/
+*.egg-info/
+
+# 临时文件
+*.tmp
+*.bak

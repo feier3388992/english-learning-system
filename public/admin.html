@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理 - 英语学习系统 V4</title>
+    <link rel="stylesheet" href="src/admin.css">
+</head>
+<body>
+<div class="admin-layout">
+    <aside class="sidebar">
+        <h2>英语学习系统</h2>
+        <p class="sidebar-sub">后台管理</p>
+        <nav>
+            <a href="/" class="nav-back">&#x2190; 返回学习</a>
+        </nav>
+        <div class="sidebar-section">
+            <h3>分类</h3>
+            <div id="categoryList"></div>
+            <button class="btn-sm" onclick="showAddCategory()">+ 新建分类</button>
+        </div>
+        <div class="sidebar-section">
+            <h3>音频文件</h3>
+            <button class="btn-sm" onclick="showAudioManager()">管理音频 (0)</button>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="main-header">
+            <h1 id="pageTitle">所有内容</h1>
+            <div class="header-actions">
+                <input type="text" id="searchInput" placeholder="搜索英文或中文..." class="search-input">
+                <button class="btn-primary" onclick="showAddForm()">+ 添加</button>
+            </div>
+        </header>
+
+        <div id="audioManager" style="display:none">
+            <div class="audio-toolbar">
+                <h2>音频文件管理</h2>
+                <div class="audio-upload-area">
+                    <input type="file" id="bulkAudioInput" accept=".mp3,.wav,.ogg,.m4a" multiple>
+                    <button class="btn-primary" onclick="uploadBulkAudio()">上传选中文件</button>
+                </div>
+            </div>
+            <div class="audio-grid" id="audioGrid"></div>
+            <button class="btn-link" onclick="hideAudioManager()">&#x2190; 返回内容管理</button>
+        </div>
+
+        <div id="contentView">
+            <div class="filter-bar">
+                <select id="filterType">
+                    <option value="">全部类型</option>
+                    <option value="word">单词</option>
+                    <option value="phrase">短句</option>
+                    <option value="passage">短文</option>
+                </select>
+                <span class="item-count" id="itemCount">0 项</span>
+            </div>
+            <div id="contentList"></div>
+        </div>
+    </main>
+</div>
+
+<div class="modal-overlay" id="modal">
+    <div class="modal">
+        <h2 id="modalTitle">添加内容</h2>
+        <div class="modal-body" id="modalBody"></div>
+        <div class="modal-actions">
+            <button type="button" class="btn-primary" onclick="submitForm()">保存</button>
+            <button type="button" class="btn-cancel" onclick="closeModal()">取消</button>
+        </div>
+    </div>
+</div>
+
+<script src="src/admin.js"></script>
+</body>
+</html>

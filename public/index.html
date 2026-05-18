@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语学习 V5</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+
+<div class="app-layout">
+    <div class="main-area">
+        <button class="toggle-settings" id="toggleSettings">&#x2630;</button>
+
+        <div id="learnSection">
+            <div class="card-main">
+                <button class="nav-arrow nav-prev" onclick="prevCard()">&#x2039;</button>
+                <div class="card-center">
+                    <div class="card-container">
+                        <div class="card" id="flashcard">
+                            <div class="card-face card-front">
+                                <div class="card-content">
+                                    <div class="card-english" id="cardEnglish">加载中...</div>
+                                    <div class="card-type-badge" id="cardTypeBadge"></div>
+                                    <div class="card-bottom-row">
+                                        <div class="card-status" id="cardStatus"></div>
+                                        <button class="sound-btn" onclick="playSound(event)">&#x1F50A;</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-face card-back">
+                                <div class="card-content">
+                                    <div class="card-chinese" id="cardChinese"></div>
+                                    <div class="card-bottom-row">
+                                        <div class="card-status" id="cardStatusBack"></div>
+                                        <button class="sound-btn" onclick="playSound(event)">&#x1F50A;</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-meta">
+                        <span class="category-tag" id="categoryTag"></span>
+                        <span class="progress-info" id="progressInfo">
+                            当前 <span id="currentIndex">0</span> / <span id="visibleCount">0</span>
+                        </span>
+                        <button class="random-btn" onclick="randomCard()">&#x1F500; 随机</button>
+                    </div>
+                </div>
+                <button class="nav-arrow nav-next" onclick="nextCard()">&#x203A;</button>
+            </div>
+        </div>
+
+        <div id="testSection">
+            <div class="test-word" id="testWord">加载中...</div>
+            <div class="test-hint">输入单词后按空格，逐词检测</div>
+            <div class="word-display" id="wordDisplay"></div>
+            <div class="input-row">
+                <input type="text" class="test-input" id="testInput" placeholder="输入英文..." autocomplete="off">
+                <div class="test-result" id="testResult"></div>
+            </div>
+            <div class="correct-answer" id="correctAnswer"></div>
+            <div class="category-tag" id="testCategoryTag"></div>
+            <div class="test-buttons">
+                <button class="test-btn hint-btn" onclick="prevTest()">&#x2039; 上一个</button>
+                <button class="test-btn hint-btn" onclick="playHint()">&#x1F50A; 发音</button>
+                <button class="test-btn next-btn" onclick="nextTest()">下一个 &#x203A;</button>
+            </div>
+            <div class="test-feedback">
+                <span id="correctFeedback">&#x2713; 正确: 0</span>
+                <span id="wrongFeedback">&#x2717; 错误: 0</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="settings-sidebar" id="settingsPanel">
+        <div class="settings-sidebar-inner">
+            <div class="settings-header">
+                <h1>英语学习系统</h1>
+                <button class="close-settings" id="closeSettings">&#x2715;</button>
+            </div>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-label">总短句</span>
+                    <span class="stat-value" id="totalCount">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">已掌握</span>
+                    <span class="stat-value" id="masteredCount">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">学习中</span>
+                    <span class="stat-value" id="learningCount">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">正确率</span>
+                    <span class="stat-value" id="accuracy">0%</span>
+                </div>
+            </div>
+
+            <div class="category-select" id="categorySelect">
+                <button class="cat-btn active" data-id="">全部</button>
+            </div>
+
+            <div class="mode-switch">
+                <button class="mode-btn active" data-mode="learn">学习模式</button>
+                <button class="mode-btn" data-mode="test">测试模式</button>
+                <button class="mode-btn" data-mode="review">复习模式</button>
+            </div>
+
+            <div class="level-filter" id="levelFilter">
+                <label><input type="checkbox" checked value="new"> 未学习</label>
+                <label><input type="checkbox" checked value="learning"> 学习中</label>
+                <label><input type="checkbox" checked value="mastered"> 已掌握</label>
+            </div>
+
+            <div class="settings-actions">
+                <button id="resetBtn">重置进度</button>
+                <a href="admin.html" class="admin-link">数据库管理 &#x2699;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="src/app.js"></script>
+</body>
+</html>

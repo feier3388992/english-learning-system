@@ -1,0 +1,4 @@
+fastapi==0.136.1
+uvicorn[standard]==0.46.0
+python-multipart>=0.0.20
+pydub>=0.25.1
